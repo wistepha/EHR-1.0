@@ -11,6 +11,9 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 * ana-wbcXX.root
 > Contains the analysis of all measurements done with a WBC value of XX.
 
+* DTB.py
+> Contains the commands used to control the DTB. The adc() command and the read out sequence are particular to this file.
+
 * EHR.PcbDoc
 > PCB design file (ALTIUM designer)
 
