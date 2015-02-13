@@ -34,3 +34,9 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 
 * write_mem_file.py
 > Simple program to write text files used by FPGA.py to write into the FPGA pattern memory.
+
+* location.py
+> Sends pulses (randomly) through individual wires while sending triggers. Maps the location of the clusters.
+
+* map.py
+> Basic test. Sends triggers and collects some data of the read out.
