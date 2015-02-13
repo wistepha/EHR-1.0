@@ -55,7 +55,7 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 
 * multi-scan-runX-addY.root
 > Contain the efficiency maps for the measurement runs. The -add files contain measurements to substitute the last measurements of the original run file due to measurement errors.
-> run1: WBC = 100
-> run2: WBC = 150
-> run3: WBC = 50,249 | trigger rate = 10 kHz
-> run4: WBC = 249 | trigger rates: 30 kHz, 60 kHz, 100 kHz
+> - run1: WBC = 100
+> - run2: WBC = 150
+> - run3: WBC = 50,249 | trigger rate = 10 kHz
+> - run4: WBC = 249 | trigger rates: 30 kHz, 60 kHz, 100 kHz
