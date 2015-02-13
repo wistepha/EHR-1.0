@@ -49,3 +49,6 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 
 * rateXX.root
 > Contains hits per event distributions for individual wires. The measurements were performed with a rate parameter of XX. The phase shift performed, if mentioned in the file name, was 10.4 ns.
+
+* multi-scan-extana.py
+> Performs the same analysis which multi-scan.py performs. extana2 allows to change the data file for each data point. This was used to combine the analysis of multi-scan-runX.root and multi-scan-runX-addY.root files.
