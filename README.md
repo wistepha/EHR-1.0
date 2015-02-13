@@ -5,6 +5,12 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 ####A description of the files found in this repository:
 -----------------------------------------------------
 
+* ana-run4-add1.root
+> Contains the analysis of the second run of measurements performed at a trigger rate of 100 kHz and a WBC of 249.
+
+* ana-wbcXX.root
+> Contains the analysis of all measurements done with a WBC value of XX.
+
 * EHR.PcbDoc
 > PCB design file (ALTIUM designer)
 
@@ -26,29 +32,14 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 * FPGA_test.py
 > A simple testbench for the ZEM4310 used for debugging. Many of it's functions are obsolete.
 
-* Pattern_init.mif
-> Memory initialisation file used in finalv3_1_top.v. It initialises the pattern memory to all 0.
-
-* select_init.mif
-> Memory initialisation file used in finalv3_1_top.v. It initialises the wire select memory to all 1.
-
-* write_mem_file.py
-> Simple program to write text files used by FPGA.py to write into the FPGA pattern memory.
+* functions.py
+> Contains some functions used in map.py
 
 * location.py
 > Sends pulses (randomly) through individual wires while sending triggers. Maps the location of the clusters.
 
 * map.py
 > Basic test. Sends triggers and collects some data of the read out, including the pixel address and the pulse height.
-
-* ana-wbcXX.root
-> Contains the analysis of all measurements done with a WBC value of XX.
-
-* ana-run4-add1.root
-> Contains the analysis of the second run of measurements performed at a trigger rate of 100 kHz and a WBC of 249.
-
-* rateXX.root
-> Contains hits per event distributions for individual wires. The measurements were performed with a rate parameter of XX. The phase shift performed, if mentioned in the file name, was 10.4 ns.
 
 * multi-scan-extana.py
 > Performs the same analysis which multi-scan.py performs. extana2 allows to change the data file for each data point. This was used to combine the analysis of multi-scan-runX.root and multi-scan-runX-addY.root files.
@@ -59,3 +50,16 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 > - run2: WBC = 150
 > - run3: WBC = 50,249 | trigger rate = 10 kHz
 > - run4: WBC = 249 | trigger rates: 30 kHz, 60 kHz, 100 kHz
+
+* Pattern_init.mif
+> Memory initialisation file used in finalv3_1_top.v. It initialises the pattern memory to all 0.
+
+* select_init.mif
+> Memory initialisation file used in finalv3_1_top.v. It initialises the wire select memory to all 1.
+
+* write_mem_file.py
+> Simple program to write text files used by FPGA.py to write into the FPGA pattern memory.
+
+* rateXX.root
+> Contains hits per event distributions for individual wires. The measurements were performed with a rate parameter of XX. The phase shift performed, if mentioned in the file name, was 10.4 ns.
+
