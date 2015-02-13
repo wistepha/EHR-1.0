@@ -34,3 +34,15 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 
 * write_mem_file.py
 > Simple program to write text files used by FPGA.py to write into the FPGA pattern memory.
+
+* location.py
+> Sends pulses (randomly) through individual wires while sending triggers. Maps the location of the clusters.
+
+* map.py
+> Basic test. Sends triggers and collects some data of the read out, including the pixel address and the pulse height.
+
+* ana-wbcXX.root
+> Contains the analysis of all measurements done with a WBC value of XX.
+
+* ana-run4-add1.root
+> Contains the analysis of the second run of measurements performed at a trigger rate of 100 kHz and a WBC of 249.
