@@ -46,3 +46,6 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 
 * ana-run4-add1.root
 > Contains the analysis of the second run of measurements performed at a trigger rate of 100 kHz and a WBC of 249.
+
+* rateXX.root
+> Contains hits per event distributions for individual wires. The measurements were performed with a rate parameter of XX. The phase shift performed, if mentioned in the file name, was 10.4 ns.
