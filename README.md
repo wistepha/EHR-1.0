@@ -51,8 +51,14 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 > - run3: WBC = 50,249 | trigger rate = 10 kHz
 > - run4: WBC = 249 | trigger rates: 30 kHz, 60 kHz, 100 kHz
 
+* param.py
+> Contains parameters used in map.py
+
 * Pattern_init.mif
 > Memory initialisation file used in finalv3_1_top.v. It initialises the pattern memory to all 0.
+
+* rateXX.root
+> Contains hits per event distributions for individual wires. The measurements were performed with a rate parameter of XX. The phase shift performed, if mentioned in the file name, was 10.4 ns.
 
 * select_init.mif
 > Memory initialisation file used in finalv3_1_top.v. It initialises the wire select memory to all 1.
@@ -60,6 +66,4 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 * write_mem_file.py
 > Simple program to write text files used by FPGA.py to write into the FPGA pattern memory.
 
-* rateXX.root
-> Contains hits per event distributions for individual wires. The measurements were performed with a rate parameter of XX. The phase shift performed, if mentioned in the file name, was 10.4 ns.
 
