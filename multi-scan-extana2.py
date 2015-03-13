@@ -5,8 +5,8 @@ import numpy,array,sys,time,param,random,functions,os
 def geteff(histo,trgmax):
     
     content = 0
-    for row in range(80):
-        for col in range(52):
+    for row in range(1,81):
+        for col in range(1,53):
             content += histo.GetBinContent(col,row)
 
     tottrg = 52*80*trgmax
