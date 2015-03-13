@@ -8,7 +8,7 @@ Includes files mentioned in the MSc thesis "Electrical High Rate Setup"
 * ana-run4-add1.root
 > Contains the analysis of the second run of measurements performed at a trigger rate of 100 kHz and a WBC of 249.
 
-* ana-wbcXX.root
+* ana-wbc-XX-new.root
 > Contains the analysis of all measurements done with a WBC value of XX.
 
 * DTB.py
