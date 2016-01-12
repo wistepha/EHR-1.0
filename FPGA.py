@@ -224,7 +224,7 @@ class ZEM:
 
     def set_mode(self,mode = 0):
 
-        #mode = 0: random pulses (see mod_rate).
+        #mode = 0: random pulses (see set_rate).
         #mode = 1: pulse pattern defined in pattern memory.
         #For further values cf. set_trg
 
