@@ -34,6 +34,7 @@ class ZEM:
         print("Device ID: %s" % self.devInfo.deviceID)
 
         if filename != "":
+            print "Found configuration file: ",filename
             if self.configureFPGA(filename) == False:
                 print "Unable to configure FPGA."
                 sys.exit(1)

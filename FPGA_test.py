@@ -410,7 +410,7 @@ if __name__ == "__main__":
     while inp != 'exit':
         inp = raw_input("\n----- Awaiting command ----- try 'help'\n")
         if inp == 'help':
-            print "Available commands are:  help  mod_cab  reset  write_mem  write_mem_file  write_mem_all  pat_test  mod_rate  mem_test  mod_mod  get_wire exit\n"
+            print "Available commands are:  help  mod_cab  reset  write_mem  write_mem_file  write_mem_all  pat_test  mod_rate  mem_test  mod_mod  get_wire exit switch_clk\n"
         elif inp  == 'mod_cab':
             mod_cab(dev)
             print "\n"

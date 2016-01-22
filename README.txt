@@ -1,5 +1,8 @@
 Some notes regarding the installations of the EHR setup:
 
+- pyROOT is required. So do not forget to install ROOT using python flag:
+./configure --enable-python
+
 - To use the new FrontPanel software (I could not find the one I used during the thesis anymore...) on Ubuntu 14 an old package is required.
 Get it from:
 http://packages.ubuntu.com/precise/libudev0
