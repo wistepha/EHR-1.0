@@ -410,14 +410,14 @@ if __name__ == "__main__":
     while inp != 'exit':
         inp = raw_input("\n----- Awaiting command ----- try 'help'\n")
         if inp == 'help':
-            print "Available commands are:  help  mod_cab  reset  write_mem  write_mem_file  write_mem_all  pat_test  mod_rate  mem_test  mod_mod  get_wire exit switch_clk\n"
-        elif inp  == 'mod_cab':
-            mod_cab(dev)
-            print "\n"
+            print "Available commands are:  help  exit  reset  mod_cab  write_mem  write_mem_file  mem  pat_test  mem_test  mod_rate  mod_mod  write_mem_all  switch_clk  get_wire\n"
         elif inp == 'exit':
             sys.exit()
         elif inp == 'reset':
             configureFPGA(dev)
+        elif inp  == 'mod_cab':
+            mod_cab(dev)
+            print "\n"
         elif inp == 'write_mem':
             write_mem(mem,memsize,dev)
         elif inp == 'write_mem_file':

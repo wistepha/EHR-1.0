@@ -275,7 +275,7 @@ class ZEM:
         if rate >= 4294967296 or rate < 0:
             print "Invalid rate value."
             return
-        self.dev.SetWireInValue(0x01,rate)
+        self.dev.SetWireInValue(0x01,int(rate))
         self.dev.UpdateWireIns()
 
     def set_trg(self,mod = 100,pattern_count_ena = 1, pattern_count = 1):
